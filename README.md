@@ -5,6 +5,8 @@
 
 _Crear un programa que retorne la fuente y contenido del mensaje de auxilio. Para esto, se cuenta con tres satélites que permitirán triangular la posición._
 
+(https://github.com/emontes0812/Challenge_Quasar/blob/main/doc/images/Quasar.png)
+
 _Para triangular la posición del mensaje de auxilio se usó del método matemático Trilateracion._
 
 ### Pre-requisitos 📋
