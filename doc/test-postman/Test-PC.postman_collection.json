@@ -1,0 +1,204 @@
+{
+	"info": {
+		"_postman_id": "1cd28022-9889-4449-9767-fcf2211b0103",
+		"name": "Test-PC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Request  Nivel1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"satellites\": [\r\n        {\r\n            \"name\": \"kenobi\",\r\n            \"distance\": 100.0,\r\n            \"message\": [\"este\", \"\", \"\", \"mensaje\", \"\"]\r\n        },\r\n        {\r\n            \"name\": \"skywalker\",\r\n            \"distance\": 115.5,\r\n            \"message\": [\"\", \"es\", \"\", \"\", \"secreto\"]\r\n        },\r\n        {\r\n            \"name\": \"sato\",\r\n            \"distance\": 142.7,\r\n            \"message\": [\"este\", \"\", \"un\", \"\", \"\"]\r\n        }\r\n    ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://quasar-env.eba-ahd65wr3.us-east-1.elasticbeanstalk.com/topsecret/",
+					"protocol": "http",
+					"host": [
+						"quasar-env",
+						"eba-ahd65wr3",
+						"us-east-1",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"topsecret",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request2  Nivel1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"satellites\": [\r\n        {\r\n            \"name\": \"kenobi\",\r\n            \"distance\": 485.0,\r\n            \"message\": [\"este\", \"\", \"\", \"mensaje\", \"\"]\r\n        },\r\n        {\r\n            \"name\": \"skywalker\",\r\n            \"distance\": 265,\r\n            \"message\": [\"\", \"es\", \"\", \"\", \"secreto\"]\r\n        },\r\n        {\r\n            \"name\": \"sato\",\r\n            \"distance\": 600,\r\n            \"message\": [\"este\", \"\", \"un\", \"\", \"\"]\r\n        }\r\n    ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://quasar-env.eba-ahd65wr3.us-east-1.elasticbeanstalk.com/topsecret/",
+					"protocol": "http",
+					"host": [
+						"quasar-env",
+						"eba-ahd65wr3",
+						"us-east-1",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"topsecret",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request1 Nivel2 Kenobi",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"distance\": 100.0,\r\n    \"message\": [\"este\", \"\", \"\", \"mensaje\", \"\"]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://quasar-env.eba-ahd65wr3.us-east-1.elasticbeanstalk.com/topsecret_split/kenobi",
+					"protocol": "http",
+					"host": [
+						"quasar-env",
+						"eba-ahd65wr3",
+						"us-east-1",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"topsecret_split",
+						"kenobi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request1 Nivel2 Skywalker",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"distance\": 115.5,\r\n    \"message\": [\"\", \"es\", \"\", \"\", \"secreto\"]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://quasar-env.eba-ahd65wr3.us-east-1.elasticbeanstalk.com/topsecret_split/skywalker",
+					"protocol": "http",
+					"host": [
+						"quasar-env",
+						"eba-ahd65wr3",
+						"us-east-1",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"topsecret_split",
+						"skywalker"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request1 Nivel2 Sato",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"distance\": 142.7,\r\n    \"message\": [\"este\", \"\", \"un\", \"\", \"\"]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://quasar-env.eba-ahd65wr3.us-east-1.elasticbeanstalk.com/topsecret_split/sato",
+					"protocol": "http",
+					"host": [
+						"quasar-env",
+						"eba-ahd65wr3",
+						"us-east-1",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"topsecret_split",
+						"sato"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request1 Nivel2 Get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://quasar-env.eba-ahd65wr3.us-east-1.elasticbeanstalk.com/topsecret_split/",
+					"protocol": "http",
+					"host": [
+						"quasar-env",
+						"eba-ahd65wr3",
+						"us-east-1",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"topsecret_split",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
