@@ -26,3 +26,10 @@ git clone https://github.com/emontes0812/Challenge_Quasar
 ```
 
 _Si no tiene instaldao Git descargue el código completo en un archivo zip haciendo clic en el botón "Descargar zip" en el lado derecho de la página.
+
+## Pruebas ⚙️
+
+### Postman 🚀
+
+_En el repositorio encuentra la colección de pruebas con Postman el cual tiene la URL del servicio configurada._
+
