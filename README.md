@@ -31,7 +31,7 @@ _Si no tiene instaldao Git descargue el código completo en un archivo zip hacie
 
 ### Postman 🚀
 
-_Las siguiente es la URL del servicio publicado en AWS con Elastic Beanstalk:_ 
+_A continuaión encuentra la URL del servicio publicado en AWS con Elastic Beanstalk:_ 
 
 http://quasar-env.eba-ahd65wr3.us-east-1.elasticbeanstalk.com/
 
