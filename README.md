@@ -12,8 +12,8 @@ _Para triangular la posición del mensaje de auxilio se usó del método matemá
 _Las tecnologias que se usaron fueron_
 
 ```
-Java
-Maven
+- Java
+- Maven
 ```
 
 ### Instalación 🔧
@@ -30,6 +30,10 @@ _Si no tiene instaldao Git descargue el código completo en un archivo zip hacie
 ## Pruebas ⚙️
 
 ### Postman 🚀
+
+_Las siguiente es la URL del servicio publicado en AWS con Elastic Beanstalk:_ 
+
+http://quasar-env.eba-ahd65wr3.us-east-1.elasticbeanstalk.com/
 
 _En el repositorio encuentra la colección de pruebas con Postman el cual tiene la URL del servicio configurada._
 
