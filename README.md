@@ -37,3 +37,7 @@ http://quasar-env.eba-ahd65wr3.us-east-1.elasticbeanstalk.com/
 
 _En el repositorio encuentra la colección de pruebas con Postman el cual tiene la URL del servicio configurada._
 
+[Test-PC.postman_collection.json](https://github.com/emontes0812/Challenge_Quasar/blob/main/doc/test-postman/Test-PC.postman_collection.json)
+
+
+
