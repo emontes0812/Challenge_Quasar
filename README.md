@@ -18,14 +18,14 @@ Maven
 
 ### Instalación 🔧
 
-_ Si tiene instalado Git, ejecute las siguientes instrucciones para tener el entorno de desarrollo ejecutandose localmente_
+_Si tiene instalado Git, ejecute las siguientes instrucciones para tener el entorno de desarrollo ejecutandose localmente_
 
 
 ```
 git clone https://github.com/emontes0812/Challenge_Quasar
 ```
 
-_Si no tiene instaldao Git descargue el código completo en un archivo zip haciendo clic en el botón "Descargar zip" en el lado derecho de la página.
+_Si no tiene instaldao Git descargue el código completo en un archivo zip haciendo clic en el botón "Descargar zip" en el lado derecho de la página._
 
 ## Pruebas ⚙️
 
